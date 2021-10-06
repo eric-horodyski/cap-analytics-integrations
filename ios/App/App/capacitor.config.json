@@ -1,0 +1,12 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "cap-analytics-integrations",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"cordova": {
+		"preferences": {
+			"IOS_APP_TOKEN": "AAb4e10ac8988b40036144eb9a0102acb53355a887-NRMA",
+			"ANDROID_APP_TOKEN": "AAf5387ca815ba6e368277b375b180ec1bc693bfdb-NRMA"
+		}
+	}
+}
