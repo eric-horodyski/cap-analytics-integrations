@@ -2,13 +2,9 @@
 <widget version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <access origin="*" />
   
-  <feature name="NewRelic">
-    <preference name="IOS_APP_TOKEN" value="$IOS_APP_TOKEN"/>
-    <preference name="PLUGIN_VERSION" value="$PLUGIN_VERSION"/>
-    <param name="ios-package" value="NewRelicCordovaPlugin" onload="true"/>
+  <feature name="TealiumPg">
+    <param name="ios-package" value="TealiumPg"/>
   </feature>
 
   
-  <preference name="IOS_APP_TOKEN" value="AAb4e10ac8988b40036144eb9a0102acb53355a887-NRMA" />
-  <preference name="ANDROID_APP_TOKEN" value="AAf5387ca815ba6e368277b375b180ec1bc693bfdb-NRMA" />
 </widget>
