@@ -15,7 +15,7 @@ const config: TealConfig = {
 @Injectable({
   providedIn: 'root',
 })
-export class TealumService {
+export class TealiumService {
   public initialized = false;
 
   constructor(private tealium: Tealium, private platform: Platform) {}

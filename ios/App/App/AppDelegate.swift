@@ -1,5 +1,6 @@
 import UIKit
 import Capacitor
+import NewRelic
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -7,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        NewRelic.start(withApplicationToken:"AAb4e10ac8988b40036144eb9a0102acb53355a887-NRMA")
         return true
     }
 
