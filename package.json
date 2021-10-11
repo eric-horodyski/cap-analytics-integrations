@@ -21,6 +21,7 @@
     "@angular/router": "~12.1.1",
     "@awesome-cordova-plugins/core": "~5.36.1",
     "@awesome-cordova-plugins/tealium": "~5.36.1",
+    "@capacitor-community/firebase-analytics": "~1.0.0",
     "@capacitor/android": "3.2.4",
     "@capacitor/app": "1.0.3",
     "@capacitor/core": "3.2.4",
